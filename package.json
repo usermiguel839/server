@@ -1,0 +1,31 @@
+{
+  "name": "africa-asiatica-server",
+  "version": "1.0.0",
+  "description": "Backend do sistema de recrutamento Africa Asiatica",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "discord",
+    "minecraft",
+    "recrutamento",
+    "express",
+    "africa-asiatica"
+  ],
+  "author": "Africa Asiatica",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
