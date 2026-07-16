@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const BOT_URL = `http://${process.env.BOT_HOST}:${process.env.BOT_PORT}`;
+const BOT_URL = process.env.BOT_URL;
 
 /*==========================================
             CREATE RECRUITMENT
